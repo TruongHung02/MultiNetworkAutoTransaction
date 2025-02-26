@@ -1,0 +1,39 @@
+{
+    "name": "multinetwork-auto-tx",
+    "version": "1.0.0",
+    "description": "Automated wallet creation, faucet claiming, and token transfer bot for Somnia and Nexus Networks",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/airdropinsiders/MultiNetwork-Auto-Tx.git"
+    },
+    "keywords": [
+      "crypto",
+      "blockchain",
+      "automation",
+      "wallet",
+      "faucet",
+      "ethereum",
+      "somnia",
+      "nexus"
+    ],
+    "author": "airdropinsiders",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/airdropinsiders/MultiNetwork-Auto-Tx/issues"
+    },
+    "homepage": "https://github.com/airdropinsiders/MultiNetwork-Auto-Tx#readme",
+    "dependencies": {
+      "ethers": "^6.11.1",
+      "axios": "^1.6.7",
+      "https-proxy-agent": "^7.0.6",
+      "socks-proxy-agent": "^8.0.5"  
+    },
+    "engines": {
+      "node": ">=14.0.0"
+    }
+  }
